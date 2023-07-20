@@ -36,7 +36,7 @@ const Navbar = () => {
                          </button>
                     </div>
                     <div
-                         className={`w-full block  flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
+                         className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
                     >
                          <div className="text-base  uppercase lg:flex-grow">
                               <NavLink   to={'/'} className= {({isActive})=> isActive ? "block mt-4 lg:inline-block textColor lg:mt-0 text-white-200 mr-4" : "block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4"} >
